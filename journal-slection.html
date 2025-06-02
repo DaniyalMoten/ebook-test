@@ -1,11 +1,905 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Journal Selection Service | Publication Support Hub</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="Expert journal selection service to maximize your publication success. Get matched with the top 3-5 journals best suited for your research manuscript.">
+    <meta name="keywords" content="journal selection, publication support, research publishing, academic journals, manuscript submission">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/templatemo-ebook-landing.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Modern Navbar -->
+    <nav class="modern-navbar navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <!-- Brand -->
+            <a class="modern-navbar-brand" href="index.html">
+                <div class="brand-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-name">Publication</span>
+                    <span class="brand-subtitle">Hub</span>
+                </div>
+            </a>
+
+            <!-- Mobile CTA Button -->
+            <div class="d-lg-none ms-auto me-3">
+                <button type="button" class="modern-cta-btn mobile-cta" data-bs-toggle="modal" data-bs-target="#quoteModal">
+                    <i class="fas fa-rocket"></i>
+                    <span>Get Quote</span>
+                </button>
+            </div>
+
+            <!-- Mobile Toggle -->
+            <button class="modern-navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#modernNavbar">
+                <span class="toggler-line"></span>
+                <span class="toggler-line"></span>
+                <span class="toggler-line"></span>
+            </button>
+
+            <!-- Navigation Menu -->
+            <div class="collapse navbar-collapse" id="modernNavbar">
+                <ul class="navbar-nav ms-lg-auto me-lg-4">
+                    <li class="nav-item">
+                        <a class="modern-nav-link" href="index.html">
+                            <i class="fas fa-home nav-icon"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown modern-dropdown">
+                        <a class="modern-nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-cogs nav-icon"></i>
+                            <span>Services</span>
+                        </a>
+                        <div class="modern-dropdown-menu dropdown-menu">
+                            <div class="dropdown-container">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <div class="dropdown-column">
+                                            <div class="dropdown-items">
+                                                <a class="dropdown-item " href="journal-slection.html">
+                                                    <div class="item-icon">
+                                                        <i class="fas fa-search-plus"></i>
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <span class="item-title">Journal Selection</span>
+                                                    </div>
+                                                </a>
+                                                <a class="dropdown-item" href="index.html#peer-review">
+                                                    <div class="item-icon">
+                                                        <i class="fas fa-user-check"></i>
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <span class="item-title">Pre Submission Peer Review</span>
+                                                    </div>
+                                                </a>
+                                                <a class="dropdown-item" href="index.html#formatting">
+                                                    <div class="item-icon">
+                                                        <i class="fas fa-pen-fancy"></i>
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <span class="item-title">Formatting & Artwork Editing</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="dropdown-column">
+                                            <div class="dropdown-items">
+                                                <a class="dropdown-item" href="index.html#submission">
+                                                    <div class="item-icon">
+                                                        <i class="fas fa-paper-plane"></i>
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <span class="item-title">Journal Submission</span>
+                                                    </div>
+                                                </a>
+                                                <a class="dropdown-item" href="index.html#plagiarism">
+                                                    <div class="item-icon">
+                                                        <i class="fas fa-shield-alt"></i>
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <span class="item-title">Plagiarism Check</span>
+                                                    </div>
+                                                </a>
+                                                <a class="dropdown-item" href="index.html#citation">
+                                                    <div class="item-icon">
+                                                        <i class="fas fa-chart-line"></i>
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <span class="item-title">Citation Booster</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="modern-nav-link" href="index.html#contact">
+                            <i class="fas fa-envelope nav-icon"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Desktop CTA Button -->
+                <div class="d-none d-lg-block">
+                    <button type="button" class="modern-cta-btn desktop-cta" data-bs-toggle="modal" data-bs-target="#quoteModal">
+                        <i class="fas fa-rocket"></i>
+                        <span>Get Quote</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modern Hero Section -->
+    <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12 mb-5 pb-5 pb-lg-0 mb-lg-0">
+
+                    <h6 class="fw-bold">Publication Support Services</h6>
+
+                    <h3 class="text-white mb-4">Journal Selection</h3>
+                    <h6 class="text-white mb-4">Smart journal recommendations to maximize your chances of publication success.Expert Journal Selection Service</h6>
+
+                    <a href="#section_2" class="btn custom-btn smoothscroll me-3">Read More</a>
+
+                    <a href="#section_3" class="link link--kale smoothscroll">Conact Us</a>
+                </div>
+
+                <div class="hero-image-wrap col-lg-6 col-12 mt-3 mt-lg-0">
+                    <img src="img/hero.png" class="hero-image img-fluid"
+                        alt="education online books">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="featured-section">
+        <div class="container">
+            <div class="row">
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="modern-features-section section-padding" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12 mx-auto text-center mb-5">
+                    <div class="section-badge" data-aos="fade-up">
+                        <i class="fa fa-route me-2"></i>
+                        <span>How It Works</span>
+                    </div>
+                    <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+                        Our Expert Journal <span class="title-highlight">Selection Process</span>
+                    </h2>
+
+                    <p class="section-description">
+                        Maximize your chances of publication by letting our experts match you with the most
+                        appropriate journals for your research. Our comprehensive analysis ensures you get
+                        the best possible recommendations.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="modern-features-section section-padding" id="features">
+            <div class="container">
+                 <h2 class="section-title text-center mb-4 " data-aos="fade-up" data-aos-delay="100">
+                            Comprehensive <span class="title-highlight">Analysis Process</span>
+                        </h2>
+                           <p class="feature-description">
+                            Our team of experts analyzes your manuscript across multiple dimensions to ensure
+                            perfect journal matching based on your specific requirements and research focus.
+                        </p>
+            <div class="row">
+                <div class="col-lg-6 col-12 mb-4  mb-lg-0">
+
+                    <div class="feature-image-wrapper my-5 " style="background-color:#f8f9fa !important ;">
+                        <img src="./img/short-list-img.png" alt="Journal Selection Process" class="feature-image">
+                        <div class="image-badge">
+                            <i class="fas fa-search"></i>
+                            <span>Expert Analysis</span>
+                        </div>
+                    </div>
+                            
+            </div>
+                <div class="col-lg-6 col-md-8 col-12">
+                    <div class="feature-content">
+                      
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-microscope"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h5>Scope of Study</h5>
+                                    <p>Detailed analysis of your research domain and methodology</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-bullseye"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h5>Target Journal Type</h5>
+                                    <p>Matching scope, focus, and publication preferences</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h5>Publication Urgency</h5>
+                                    <p>Considering your timeline and review speed requirements</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-unlock-alt"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h5>Access Features</h5>
+                                    <p>Open access, subscription, and publication fee considerations</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="cta-btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#quoteModal">
+                            <i class="fas fa-rocket"></i>
+                            <span>Start Analysis</span>
+                            <div class="btn-shine"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>    
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Advantages Section -->
+    <section class="modern-advantages-section section-padding bg-light">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-12 mx-auto text-center mb-5">
+                    <div class="section-badge" data-aos="fade-up">
+                        <i class="fa fa-route me-2"></i>
+                        <span>why Choose Us</span>
+                    </div>
+                    <h2 class="section-title text-center mb-4 " data-aos="fade-up" data-aos-delay="100">
+                        Advantages of Our <span class="title-highlight">Journal Selection Service</span>
+                    </h2>
+                   
+                    <p class="section-description">
+                        Get access to expert knowledge and comprehensive analysis that maximizes your publication success rate.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-6 col-12">
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="advantage-content">
+                            <h4>Subject Matter Experts</h4>
+                            <p>Our journal finder gives you access to experts with extensive expertise in your specific subject area, ensuring accurate and relevant recommendations.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <i class="fas fa-list-ol"></i>
+                        </div>
+                        <div class="advantage-content">
+                            <h4>Top 3-5 Journal Recommendations</h4>
+                            <p>We thoroughly review your manuscript and deliver the top 3-5 journals based on acceptance factors for valid publication success.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="advantage-content">
+                            <h4>Comprehensive Database Search</h4>
+                            <p>We search large journal databases including SCI, SSCI, Web of Science, Scopus, and other international journal repositories.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="advantage-content">
+                            <h4>Expert Manuscript Feedback</h4>
+                            <p>Our peer reviewers provide vital feedback covering language quality, result significance, publication readiness, and research novelty.</p>
+
+                            <div class="feedback-details mt-3">
+                                <div class="feedback-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Language and writing quality assessment</span>
+                                </div>
+                                <div class="feedback-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Significance and impact of results</span>
+                                </div>
+                                <div class="feedback-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Publication readiness evaluation</span>
+                                </div>
+                                <div class="feedback-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Research novelty and contribution</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You Get Section -->
+    <section class="modern-deliverables-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12 mx-auto text-center mb-5">
+                    <div class="section-badge" data-aos="fade-up">
+                        <i class="fa fa-route me-2"></i>
+                        <span>Deliverables</span>
+                    </div>
+                    <h2 class="section-title text-center mb-4 " data-aos="fade-up" data-aos-delay="100">
+                        What You <span class="title-highlight">Receive</span>
+                    </h2>
+                   
+                    <p class="section-description">
+                        Our comprehensive Journal Selection Report provides everything you need to make informed publication decisions.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-6 col-12">
+                    <div class="deliverable-card">
+                        <div class="deliverable-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="deliverable-content">
+                            <h4>Detailed Journal Report</h4>
+                            <p>Lists 3-5 carefully selected journals with more than 10 parameters for each publication, including impact factor, review time, acceptance rate, and scope alignment.</p>
+
+                            <div class="report-features">
+                                <div class="feature-tag">
+                                    <i class="fas fa-chart-bar"></i>
+                                    <span>Impact Factor Analysis</span>
+                                </div>
+                                <div class="feature-tag">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Review Timeline</span>
+                                </div>
+                                <div class="feature-tag">
+                                    <i class="fas fa-percentage"></i>
+                                    <span>Acceptance Rates</span>
+                                </div>
+                                <div class="feature-tag">
+                                    <i class="fas fa-bullseye"></i>
+                                    <span>Scope Matching</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <div class="deliverable-card">
+                        <div class="deliverable-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="deliverable-content">
+                            <h4>Expert Recommendations</h4>
+                            <p>Specific comments from our journal experts to help improve your manuscript quality and expedite the publication process.</p>
+
+                            <div class="expert-insights">
+                                <div class="insight-item">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <span>Manuscript improvement suggestions</span>
+                                </div>
+                                <div class="insight-item">
+                                    <i class="fas fa-fast-forward"></i>
+                                    <span>Publication acceleration tips</span>
+                                </div>
+                                <div class="insight-item">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Risk mitigation strategies</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="modern-cta-section" id="cta_section">
+        <div class="cta-background-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-6 col-12">
+                    <div class="cta-content" data-aos="fade-right">
+                        <!-- 50% OFF Badge -->
+                        <div class="discount-badge">
+                            <div class="badge-inner">
+                                <span class="discount-text">50%</span>
+                                <span class="off-text">OFF</span>
+                            </div>
+                            <div class="badge-shine"></div>
+                        </div>
+
+                        <!-- Main Headline -->
+                        <h1 class="cta-headline">
+                            <span class="headline-primary">Plan, Create,</span>
+                            <span class="headline-secondary">Publish, Grow</span>
+                        </h1>
+
+                        <!-- Description -->
+                        <p class="cta-description">
+                            Transform your research into published success with our comprehensive publication
+                            support services. From manuscript preparation to journal selection, we guide you through
+                            every step of the publishing journey.
+                        </p>
+
+                        <!-- Action Buttons -->
+                        <div class="cta-buttons">
+                            <button type="button" class="btn cta-btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">
+                                <i class="fa fa-quote-left"></i>
+                                <span>Get A Quote</span>
+                                <div class="btn-shine"></div>
+                            </button>
+                            <button type="button" class="btn cta-btn-secondary" data-bs-toggle="modal" data-bs-target="#quoteModal">
+                                <i class="fa fa-rocket"></i>
+                                <span>Get Started</span>
+                            </button>
+                        </div>
+
+                        <!-- Contact Info -->
+                        <div class="cta-contact-info">
+                            <div class="contact-item">
+                                <i class="fa fa-phone-alt"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa fa-envelope"></i>
+                                <span>support@propublicationhub.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Device Mockup -->
+                <div class="col-lg-6 col-12">
+                    <div class="cta-visual" data-aos="fade-left">
+                        <!-- Main Device -->
+                        <div class="device-mockup">
+                            <div class="device-screen">
+                                <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=600&fit=crop"
+                                    alt="Professional Document" class="device-content">
+                            </div>
+                            <div class="device-reflection"></div>
+                        </div>
+
+                        <!-- Floating Icons -->
+                        <div class="floating-icons">
+                            <div class="floating-icon icon-1">
+                                <i class="fa fa-pen-fancy"></i>
+                            </div>
+                            <div class="floating-icon icon-2">
+                                <i class="fa fa-book-open"></i>
+                            </div>
+                            <div class="floating-icon icon-3">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <div class="floating-icon icon-4">
+                                <i class="fa fa-award"></i>
+                            </div>
+                        </div>
+
+                        <!-- Decorative Feather -->
+                        <div class="decorative-feather">
+                            <i class="fa fa-feather-alt"></i>
+                        </div>
+
+                        <!-- Background Shapes -->
+                        <div class="bg-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing Section -->
+    <section class="modern-pricing-section section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12 mx-auto text-center mb-5">
+                    <div class="section-badge" data-aos="fade-up">
+                        <i class="fa fa-route me-2"></i>
+                        <span>Pricing</span>
+                    </div>
+                    <h2 class="section-title text-center mb-4 " data-aos="fade-up" data-aos-delay="100">
+                        Simple & Transparent <span class="title-highlight">Pricing</span>
+                    </h2>
+                   
+                    <p class="section-description">
+                        Upload your manuscript now, and we'll get back to you within 2 business hours with expert analysis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 col-12">
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">
+                            <i class="fas fa-star"></i>
+                            <span>Most Popular</span>
+                        </div>
+
+                        <div class="pricing-header">
+                            <h3 class="text-white mt-5 ">Journal Selection Service</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">200</span>
+                            </div>
+                            <p class="price-description text-white">Complete journal matching & analysis</p>
+                        </div>
+
+                        <div class="pricing-features">
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>3-5 Journal Recommendations</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>10+ Parameters per Journal</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>Expert Manuscript Feedback</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>4 Business Days Delivery</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>Database Search (SCI, Scopus, etc.)</span>
+                            </div>
+                        </div>
+
+                        <div class="pricing-footer">
+                            <button type="button" class="cta-btn-primary w-100" data-bs-toggle="modal" data-bs-target="#quoteModal">
+                                <i class="fas fa-rocket"></i>
+                                <span>Get Started Now</span>
+                                <div class="btn-shine"></div>
+                            </button>
+                            <p class="guarantee">
+                                <i class="fas fa-shield-alt"></i>
+                                100% Satisfaction Guarantee
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Footer Section -->
+    <footer class="modern-footer-section">
+        <div class="container">
+            <div class="row">
+                <!-- Company Information -->
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="footer-content">
+                        <h3 class="footer-brand">PUBLICATIONHUB</h3>
+                        <p class="footer-description">
+                            Propublicationhub is the trusted name in author services for the
+                            global research community. Since 2005, we have worked with
+                            researchers in more than 125 countries improving the
+                            communication of their research and helping them to achieve
+                            success in publication. Propublicationhub is a preferred partner
+                            for leading publishers, societies, as well as universities
+                            worldwide. We have offices in Tokyo, Seoul, Beijing, Shanghai,
+                            Istanbul, and New York. Propublicationhub operates globally with
+                            regional teams supporting researchers locally.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h4 class="footer-section-title">FOLLOW US</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/propublicationhub" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://www.instagram.com/propublicationhub" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://www.linkedin.com/company/propublication-hub" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://www.x.com/propublicationhub" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-section">
+                        <h4 class="footer-section-title">CONTACT US</h4>
+                        <div class="contact-info">
+                            <a href="tel:+447418357021" class="contact-link">
+                                <i class="fa fa-phone"></i>
+                                <span>+44 7418 357021</span>
+                            </a>
+                            <a href="mailto:info@propublicationhub.com" class="contact-link">
+                                <i class="fa fa-envelope"></i>
+                                <span>info@propublicationhub.com</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-legal text-center">
+                    <a href="#" class="legal-link mt-4">Privacy Policy</a>
+                    <span class="separator">|</span>
+                    <a href="#" class="legal-link">Terms & Conditions</a>
+                </div>
+
+                <div class="footer-copyright">
+                    <p>All contents of www.propublicationhub.com are protected under the International Copyright Act. All rights on this web site are reserved and no part of this site shall be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, printing, photocopying, recording or otherwise, including the right of translation in any language, without the permission of Crimson Interactive Inc. (USA)</p>
+                    <p class="copyright-text">Copyright © 2026 - ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Quote Modal (same as main site) -->
+    <div class="modal fade" id="quoteModal" tabindex="-1" aria-labelledby="quoteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content modern-quote-modal">
+                <div class="modal-header quote-modal-header">
+                    <div class="quote-header-content">
+                        <!-- 50% OFF Badge -->
+                        <div class="quote-discount-badge">
+                            <div class="badge-inner">
+                                <span class="discount-text">50%</span>
+                                <span class="off-text">OFF</span>
+                            </div>
+                            <div class="badge-shine"></div>
+                        </div>
+
+                        <h2 class="quote-modal-title text-white">
+                            GET YOUR <span class="title-highlight">FREE QUOTE</span>
+                        </h2>
+                        <p class="quote-modal-subtitle">Start your journal selection process with expert guidance and save 50% on your first service!</p>
+                    </div>
+                    <button type="button" class="btn-close quote-close-btn" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fa fa-times"></i>
+                    </button>
+                </div>
+
+                <div class="modal-body quote-modal-body">
+                    <form class="modern-quote-form" id="quoteForm">
+                        <div class="row g-4">
+                            <!-- Personal Information -->
+                            <div class="col-md-6">
+                                <div class="quote-form-group">
+                                    <label for="firstName" class="quote-form-label">
+                                        <i class="fa fa-user"></i>
+                                        First Name
+                                    </label>
+                                    <input type="text" class="quote-form-control" id="firstName" name="firstName" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="quote-form-group">
+                                    <label for="lastName" class="quote-form-label">
+                                        <i class="fa fa-user"></i>
+                                        Last Name
+                                    </label>
+                                    <input type="text" class="quote-form-control" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="quote-form-group">
+                                    <label for="email" class="quote-form-label">
+                                        <i class="fa fa-envelope"></i>
+                                        Email Address
+                                    </label>
+                                    <input type="email" class="quote-form-control" id="email" name="email" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="quote-form-group">
+                                    <label for="phone" class="quote-form-label">
+                                        <i class="fa fa-phone"></i>
+                                        Phone Number
+                                    </label>
+                                    <input type="tel" class="quote-form-control" id="phone" name="phone">
+                                </div>
+                            </div>
+
+                            <!-- Project Details -->
+                            <div class="col-12">
+                                <div class="quote-form-group">
+                                    <label for="projectDetails" class="quote-form-label">
+                                        <i class="fa fa-file-alt"></i>
+                                        Research Details
+                                    </label>
+                                    <textarea class="quote-form-control" id="projectDetails" name="projectDetails" rows="4" placeholder="Please describe your research area, manuscript type, and any specific journal preferences..."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Special Offer Notice -->
+                        <div class="quote-special-offer">
+                            <div class="offer-icon">
+                                <i class="fa fa-gift"></i>
+                            </div>
+                            <div class="offer-content">
+                                <h4>Limited Time Offer!</h4>
+                                <p>Get <strong>50% OFF</strong> on your journal selection service when you submit this form. Our experts will contact you within 24 hours with a personalized quote.</p>
+                            </div>
+                        </div>
+
+                        <!-- Form Actions -->
+                        <div class="quote-form-actions">
+                            <button type="submit" class="quote-submit-btn">
+                                <span class="btn-text">Get My Free Quote</span>
+                                <i class="fa fa-paper-plane"></i>
+                                <div class="btn-shine"></div>
+                            </button>
+                            <p class="quote-form-note">
+                                <i class="fa fa-shield-alt"></i>
+                                Your information is secure and will never be shared with third parties.
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!-- Quote Modal JavaScript (same as main site) -->
+    <script>
+        // Quote Form Handling
+        document.addEventListener('DOMContentLoaded', function() {
+            const quoteForm = document.getElementById('quoteForm');
+            const submitBtn = document.querySelector('.quote-submit-btn');
+
+            // Form submission handler
+            quoteForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                // Show loading state
+                submitBtn.innerHTML = `
+                    <span class="btn-text">Sending...</span>
+                    <i class="fa fa-spinner fa-spin"></i>
+                    <div class="btn-shine"></div>
+                `;
+                submitBtn.disabled = true;
+
+                // Simulate form submission (replace with actual form handling)
+                setTimeout(() => {
+                    // Show success message
+                    showSuccessMessage();
+
+                    // Reset form
+                    quoteForm.reset();
+
+                    // Reset button
+                    submitBtn.innerHTML = `
+                        <span class="btn-text">Get My Free Quote</span>
+                        <i class="fa fa-paper-plane"></i>
+                        <div class="btn-shine"></div>
+                    `;
+                    submitBtn.disabled = false;
+
+                    // Close modal after 2 seconds
+                    setTimeout(() => {
+                        const modal = bootstrap.Modal.getInstance(document.getElementById('quoteModal'));
+                        modal.hide();
+                    }, 2000);
+                }, 2000);
+            });
+
+            // Success message function
+            function showSuccessMessage() {
+                const modalBody = document.querySelector('.quote-modal-body');
+                const originalContent = modalBody.innerHTML;
+
+                modalBody.innerHTML = `
+                    <div class="text-center py-5">
+                        <div class="success-animation mb-4">
+                            <i class="fa fa-check-circle" style="font-size: 4rem; color: #27ae60;"></i>
+                        </div>
+                        <h3 style="color: #27ae60; margin-bottom: 1rem;">Thank You!</h3>
+                        <p style="color: #2c3e50; font-size: 1.1rem; margin-bottom: 1.5rem;">
+                            Your journal selection request has been submitted successfully. Our experts will contact you within 24 hours with personalized recommendations.
+                        </p>
+                        <div class="offer-reminder" style="background: linear-gradient(135deg, rgba(231, 76, 60, 0.1), rgba(243, 156, 18, 0.1)); padding: 1rem; border-radius: 10px; border: 2px solid rgba(231, 76, 60, 0.2);">
+                            <p style="margin: 0; color: #e74c3c; font-weight: 600;">
+                                <i class="fa fa-gift"></i> Don't forget - you're eligible for 50% OFF on your first service!
+                            </p>
+                        </div>
+                    </div>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>
